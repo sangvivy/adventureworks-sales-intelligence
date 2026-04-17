@@ -28,6 +28,10 @@ The analysis was performed on a multi-table relational dataset consisting of:
 
 - Dimension Tables: Detailed metadata for Products, Customers, Territories, and a specialized Calendar table.
 
+## Data Architecture (The "Star Schema")
+
+The project utilizes a Star Schema architecture to optimize query performance. A central Fact table (Sales) is connected to five Dimension tables (Product, Customer, Territory, Calendar, and Returns) via one-to-many relationships. This design minimizes data redundancy and enables efficient cross-filtering across the entire dashboard."
+
 ## Tools Used
 
 - Power BI Desktop: For data modeling and visualization.
@@ -52,8 +56,6 @@ The analysis was performed on a multi-table relational dataset consisting of:
 
 6. Analytical Insight: Interpreted visuals to provide data-driven business recommendations.
 
-## Data Architecture (The "Star Schema")
-The project utilizes a Star Schema architecture to optimize query performance. A central Fact table (Sales) is connected to five Dimension tables (Product, Customer, Territory, Calendar, and Returns) via one-to-many relationships. This design minimizes data redundancy and enables efficient cross-filtering across the entire dashboard."
 
 ## Dashboard Features
 
