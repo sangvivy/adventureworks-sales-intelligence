@@ -1,5 +1,7 @@
 # AdventureWorks: Strategic Sales & Profitability Intelligence
 
+![alt text](image.png)
+
 Student Name: Vivian386
 
 Course Code: DSA3050A
@@ -31,6 +33,8 @@ The analysis was performed on a multi-table relational dataset consisting of:
 ## Data Architecture (The "Star Schema")
 
 The project utilizes a Star Schema architecture to optimize query performance. A central Fact table (Sales) is connected to five Dimension tables (Product, Customer, Territory, Calendar, and Returns) via one-to-many relationships. This design minimizes data redundancy and enables efficient cross-filtering across the entire dashboard."
+
+![alt text](image-1.png)
 
 ## Tools Used
 
