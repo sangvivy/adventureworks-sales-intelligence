@@ -52,6 +52,9 @@ The analysis was performed on a multi-table relational dataset consisting of:
 
 6. Analytical Insight: Interpreted visuals to provide data-driven business recommendations.
 
+## Data Architecture (The "Star Schema")
+The project utilizes a Star Schema architecture to optimize query performance. A central Fact table (Sales) is connected to five Dimension tables (Product, Customer, Territory, Calendar, and Returns) via one-to-many relationships. This design minimizes data redundancy and enables efficient cross-filtering across the entire dashboard."
+
 ## Dashboard Features
 
 - Page 1 (Executive Summary): High-level KPI cards, revenue trends, and geographic map analysis.
