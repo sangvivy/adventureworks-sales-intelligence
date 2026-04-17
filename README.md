@@ -1,7 +1,5 @@
 # AdventureWorks: Strategic Sales & Profitability Intelligence
 
-![alt text](image.png)
-
 Student Name: Vivian386
 
 Course Code: DSA3050A
@@ -68,6 +66,8 @@ The project utilizes a Star Schema architecture to optimize query performance. A
 - Page 2 (Detailed Analysis): Interactive Decomposition Tree, matrix with conditional formatting, and category drill-downs.
 
 - Page 3 (Insights & Monitoring): Anomaly Detection, Top/Bottom performer analysis, and Year-over-Year growth tracking.
+
+![alt text](image.png)
 
 ## Key DAX Measures
 
