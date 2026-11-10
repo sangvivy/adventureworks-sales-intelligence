@@ -1,8 +1,5 @@
 # AdventureWorks: Strategic Sales & Profitability Intelligence
 
-Student Name: Vivian386
-
-Course Code: DSA3050A
 
 ## Project Overview
 
